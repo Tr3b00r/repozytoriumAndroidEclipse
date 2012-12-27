@@ -24,7 +24,7 @@ public class ProjektGra extends AndroidApplication {
         final AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
         cfg.useGL20 = false;
         cfg.useAccelerometer = true;
-        initialize(new Gra(), cfg);
+        initialize(new Tyrian(), cfg);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
