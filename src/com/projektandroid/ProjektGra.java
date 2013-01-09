@@ -26,7 +26,7 @@ public class ProjektGra extends AndroidApplication {
         cfg.useAccelerometer = true;
         initialize(new Tyrian(), cfg);
     }
-
+    
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_projekt_gra, menu);
         return true;
