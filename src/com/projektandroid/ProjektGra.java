@@ -3,6 +3,7 @@ package com.projektandroid;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.WindowManager;
 //import android.view.View;
 //import android.widget.Button;
 //import android.view.View.OnClickListener;
@@ -19,6 +20,7 @@ public class ProjektGra extends AndroidApplication {
         
         setContentView(R.layout.activity_projekt_gra);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         
         
         final AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
