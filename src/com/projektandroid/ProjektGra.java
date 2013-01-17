@@ -19,8 +19,8 @@ public class ProjektGra extends AndroidApplication {
         super.onCreate(savedInstanceState);
         
         setContentView(R.layout.activity_projekt_gra);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT); //setting static screen orientation
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON); // while the application runs, screen will not go blank
         
         
         final AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
